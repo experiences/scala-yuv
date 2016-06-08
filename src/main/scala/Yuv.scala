@@ -41,7 +41,7 @@ object Yuv {
       val u = src(u_y * width + u_x)
       yuv_to_rgb(Y, u, v)
     }
-//    println("result:" + result.flatten.toArray.mkString(","))
+    //    println("result:" + result.flatten.toArray.mkString(","))
     result.flatten.toArray
   }
 
